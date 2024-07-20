@@ -19,11 +19,12 @@ document.getElementById("calc").onclick = function () {
             alert(" Asosiy fanlar 0 dan 30 gacha kiriting!!!\n" +
                 "Majburiy fanlar 0dan 10gacha kiriting!!!"
             )
+            location.reload()
         }
 
         switch (oper) {
-            case "1":
-                result = (first * 3.1) + (second * 3.1) + (third * 2.1) + (four * 2.1) + (five * 2.1)
+           case "1":
+                result = (first * 3.1) + (second * 2.1) + (third * 1.1) + (four * 1.1) + (five * 1.1)
                 break;
             case "2":
                 result = (first * 3.1) + (second * 2.1)
