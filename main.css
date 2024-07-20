@@ -1,0 +1,156 @@
+ body {
+     background: rgb(2, 0, 36);
+     background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(121, 9, 79, 1) 40%, rgba(0, 212, 255, 1) 100%);
+ }
+ 
+ h2 {
+     margin-left: 90px;
+     text-align: center;
+     color: #ffe700;
+ }
+ 
+ .mhm {
+     margin-top: 50px;
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ #five {
+     width: 120px;
+     height: 35px;
+     border: none;
+     border-radius: 5px;
+ }
+ 
+ #first {
+     border: none;
+     border-radius: 5px;
+     width: 120px;
+     height: 35px;
+ }
+ 
+ #second {
+     border: none;
+     border-radius: 5px;
+     width: 120px;
+     height: 35px;
+ }
+ 
+ #third {
+     border: none;
+     width: 120px;
+     height: 35px;
+     border-radius: 5px;
+ }
+ 
+ #four {
+     border: none;
+     border-radius: 5px;
+     width: 120px;
+     height: 35px;
+ }
+ 
+ #amal {
+     margin-left: 50px;
+     width: 200px;
+     height: 35px;
+ }
+ 
+ .mhm2 {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ #button {
+     margin-left: 50px;
+     margin-top: 20px;
+     width: 150px;
+     height: 40px;
+ }
+ 
+ #toch {
+     color: red;
+     background-color: black;
+     margin-left: 50px;
+     margin-top: 20px;
+     width: 150px;
+     height: 40px;
+ }
+ 
+ #display {
+     font-size: 50px;
+     color: #ebf02d;
+     font-family: 'Times New Roman', Times, serif;
+ }
+ 
+ strong {
+     margin-left: 150px;
+     font-family: 'Times New Roman', Times, serif;
+     font-size: 35px;
+     color: #10de1e;
+ }
+ 
+ .copy {
+     color: yellow;
+     font-size: 15px;
+ }
+ 
+ @media (min-width:0) and (max-width:500px) {
+     .container {
+         width: 98%;
+     }
+     h2 {
+         display: inline-block;
+     }
+     .mhm {
+         margin-left: 25px;
+         margin-top: 20px;
+         display: inline-block;
+         justify-content: space-between;
+     }
+     .mhm2 {
+         margin-top: 20px;
+         display: inline-block;
+         justify-content: space-between;
+     }
+     .box {
+         margin-top: 30px;
+     }
+     strong {
+         display: inline-block;
+         margin-left: 0px;
+         margin-top: 20px;
+     }
+     #display {
+         display: inline-block;
+         margin-left: 50px;
+     }
+ }
+ 
+ @media (min-width:447px) and (max-width:768.9px) {
+     .wrapper {
+         width: 98%;
+     }
+     .mhm .box {
+         width: 48%;
+     }
+ }
+ 
+ @media (min-width:769px) and (max-width:989.9px) {
+     .wrapper {
+         width: 98%;
+     }
+     .main .box {
+         width: 24%;
+         margin-bottom: 20px;
+     }
+ }
+ 
+ @media (min-width:990px) and (max-width:1200px) {
+     .wrapper {
+         width: 98%;
+     }
+     .main .box {
+         width: 15%;
+     }
+ }
